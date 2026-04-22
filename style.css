@@ -122,12 +122,29 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
   border-radius: 5px;
   padding: 0.7rem;
   box-sizing: border-box;
-  color: var(--white);
   background-color: var(--light-green);
-  font-size: smaller;
+  font-size: 0.7rem;
+}
+
+.cart-icon {
+  max-width: 0.7rem;
+}
+
+.link-add-cart {
+  color: var(--white);
+}
+
+.btn-add-cart:hover {
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.btn-add-cart:focus-visible {
+  background-color: var(--green);
 }
 
 @media screen and (max-width: 500px) {
