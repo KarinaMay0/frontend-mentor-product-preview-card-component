@@ -151,6 +151,10 @@ a {
     font-size: 25px;
   }
 
+  .img-container {
+    max-width: 100%;
+  }
+
   .product-img {
     display: none;
   }
